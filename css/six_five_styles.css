@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aquamarine;
+  font-family: "Open Sans", sans-serif;
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.list-wrap {
+  background-color: white;
+  width: 320px;
+  padding: 50px 30px 15px 30px;
+}
+
+.playlist-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+header i {
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  font-size: 24px;
+}
+
+.main-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-song__cover {
+  background-color: #ffbd11;
+
+  width: 110px;
+  height: 110px;
+  margin-right: 0px;
+  border-radius: 9px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-song__cover i {
+  color: white;
+  font-size: 40px;
+  border-radius: 20px;
+}
+
+.main-song__tbox {
+  width: 50%;
+}
+
+.main-song__title {
+  font-size: 29px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  line-height: 1.35;
+}
+
+.main-song__author {
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0.7;
+}
+
+.play-btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 37px;
+  margin-bottom: 40px;
+}
+
+.play-btns__main i {
+  font-size: 20px;
+  margin-left: 6px;
+}
+
+.btns__c--btn:nth-child(3) {
+  font-size: 20px;
+}
+
+.btns__c--btn {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid black;
+  border-bottom-width: 4px;
+  width: 50px;
+  height: 50px;
+}
+
+.btns__main {
+  width: 50%;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 15px;
+}
+
+.play-list__wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.song-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.song-photo {
+  background-color: tomato;
+  width: 57px;
+  height: 57px;
+  border-radius: 10px;
+  border: 2.5px solid black;
+  margin-right: 20px;
+}
+
+h3 {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
