@@ -1,7 +1,7 @@
 @import "reset.css";
 
 :root {
-  --main-black: rgba(0, 0, 0, 0.85);
+  --main-black: #44433f;
 }
 
 * {
@@ -21,7 +21,7 @@ body {
 .page_one,
 .page_two {
   width: 300px;
-  background-color: whitesmoke;
+  background-color: #44433f;
   box-shadow: 0px 3px 30px 1px rgba(0, 0, 0, 0.3);
   border-radius: 30px;
   padding-top: 30px;
@@ -38,7 +38,7 @@ body {
   align-items: flex-start;
   width: 80%;
   font-size: 20px;
-  color: rgba(0, 0, 0, 0.7);
+  color: whitesmoke;
   margin-bottom: 10px;
 }
 
@@ -66,7 +66,7 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 7px 2px whitesmoke;
   margin-bottom: 20px;
 }
 .singer-photo img {
@@ -78,11 +78,12 @@ body {
 .singer-name {
   font-size: 25px;
   margin-bottom: 10px;
+  color: whitesmoke;
 }
 
 .singer-category {
   font-size: 13px;
-  color: rgba(0, 0, 0, 0.4);
+  color: whitesmoke;
 }
 
 .main__shuffle_or_heart {
@@ -91,6 +92,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
+  color: whitesmoke;
 }
 
 .shuffle,
@@ -134,10 +136,11 @@ body {
   align-items: center;
   border-radius: 15px;
   margin-bottom: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 .playList__song:nth-child(2) {
-  box-shadow: 0px 1px 7px 0.2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 7px 2px whitesmoke;
 }
 
 .song__album {
@@ -165,12 +168,13 @@ body {
   justify-content: center;
   align-items: flex-start;
   margin-left: 10px;
+  color: whitesmoke;
 }
 
 .album_info__singer {
   font-size: 13px;
   margin-bottom: 10px;
-  color: rgba(0, 0, 0, 0.5);
+  color: whitesmoke;
 }
 
 .album_info__title {
@@ -178,7 +182,7 @@ body {
 }
 
 .song__ellipsis_container {
-  color: rgba(0, 0, 0, 0.5);
+  color: whitesmoke;
 }
 
 .main__controller {
@@ -204,7 +208,7 @@ body {
 .playing__singer {
   font-size: 12px;
   margin-bottom: 5px;
-  color: darkgrey;
+  color: whitesmoke;
 }
 
 .playing__title {
@@ -238,7 +242,7 @@ body {
 .page_two__main__current_music_photo img {
   width: 220px;
   border-radius: 20px;
-  box-shadow: 5px 15px 15px 0.5px lightpink;
+  box-shadow: 5px 15px 15px 0.5px white;
 }
 
 .page_two__main__current_music_info {
@@ -253,11 +257,12 @@ body {
 .currrent_music_info__title {
   font-size: 20px;
   margin-bottom: 20px;
+  color: whitesmoke;
 }
 
 .currrent_music_info__singer {
   font-size: 16px;
-  color: rgba(0, 0, 0, 0.4);
+  color: whitesmoke;
 }
 
 .page_two__main__play_time {
@@ -265,7 +270,7 @@ body {
   display: flex;
   justify-content: space-between;
   font-size: 12px;
-  color: rgba(0, 0, 0, 0.3);
+  color: whitesmoke;
   margin-bottom: 10px;
 }
 
@@ -276,7 +281,8 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: whitesmoke;
+  box-shadow: 0px 2px 7px 3px whitesmoke;
   margin-bottom: 50px;
 }
 
@@ -284,12 +290,12 @@ body {
   height: 4px;
   width: 70%;
   border-radius: 40px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: whitesmoke;
 }
 
 .page_two__main__time_bar i {
   font-size: 11px;
-  color: rgba(0, 0, 0, 0.9);
+  color: whitesmoke;
   margin-left: -5px;
 }
 
@@ -304,7 +310,7 @@ body {
 .page_two__main__controller .fa-play-circle {
   font-size: 50px;
   background-color: whitesmoke;
-  box-shadow: 0px 2px 7px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 7px 2px whitesmoke;
   color: var(--main-black);
   border-radius: 50%;
 }
@@ -312,10 +318,10 @@ body {
 .page_two__main__controller i:first-child,
 .page_two__main__controller i:last-child {
   font-size: 15px;
-  color: rgba(0, 0, 0, 0.3);
+  color: whitesmoke;
 }
 
 .page_two__main__controller i:nth-child(2n) {
   font-size: 20px;
-  color: var(--main-black);
+  color: whitesmoke;
 }
