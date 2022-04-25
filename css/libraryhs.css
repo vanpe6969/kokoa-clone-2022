@@ -25,6 +25,167 @@ header h1 {
   font-size: 20px;
 }
 
-.search-bar__input {
+input {
   width: 100%;
+  font-size: 15px;
+  border-radius: 30px;
+  padding: 15px 25px;
+  position: absolute;
+  border: none;
+  box-shadow: 0 14px 28px rgb(0 0 0 / 10%), 0 10px 10px rgb(0 0 0 / 10%);
+}
+
+  opacity: 0.5;
+}
+
+.search-bar__input {
+  width: 95%;
+  position: relative;
+  margin: 0px auto;
+  top: -30px;
+}
+
+.search-bar__input i {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  opacity: 0.3;
+  font-size: 20px;
+}
+
+main h2 {
+  margin-top: 35px;
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.pick-book__wrap {
+  display: flex;
+}
+
+.pick-book__cover {
+  width: 115px;
+  margin-right: 20px;
+  border-radius: 6px;
+}
+
+.pick-book__data {
+  width: 100%;
+}
+
+.pick-book__data h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.pick-book__data h5 {
+  font-size: 13px;
+  font-weight: 500;
+  opacity: 0.3;
+  margin-bottom: 20px;
+}
+
+.pick-book__mark {
+  color: #fdcc32;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.pick-book__sellbtn {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-left: -3px;
+  margin-right: 50px;
+}
+
+.sell-btn {
+  padding: 10px 20px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.pick-book__storage area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book-mark {
+  background-color: #fdcc32;
+  border: none;
+  border-radius: 50%;
+  padding: 10px 13px;
+}
+
+.book-mark i {
+  font-size: 15px;
+}
+
+.area-btn {
+  background-color: black;
+  color: white;
+  margin-left: 30px;
+  padding: 8px 35px;
+  border-radius: 5px;
+  border: none;
+}
+
+.book-list__wrap {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+  padding-bottom: 14px;
+}
+
+.book-list__wrap::-webkit-scrollbar {
+  width: 1px;
+  height: 10px;
+}
+
+.book-list__wrap::-webkit-scrollbar-thumb {
+  background-color: #fdcc32;
+  border-radius: 6px;
+  border: 2px solid transparent;
+}
+
+.book-list__wrap::-webkit-scrollbar-track {
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+
+.top-books__book {
+  margin-right: 20px;
+}
+.top-books__book img {
+  width: 70px;
+}
+
+.top-books__rating {
+  font-size: 10px;
+  margin-top: 10px;
+  color: #fdcc32;
+  text-align: center;
+}
+
+.popular-img img {
+  width: 120px;
+  margin-right: 20px;
+}
+
+.popular__wrap {
+  display: flex;
+}
+
+.lorem__data p {
+  margin-top: -15px;
+  opacity: 0.5;
+}
+.popular__data {
+  margin-top: -10%;
 }
