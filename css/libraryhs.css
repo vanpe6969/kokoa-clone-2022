@@ -35,6 +35,7 @@ input {
   box-shadow: 0 14px 28px rgb(0 0 0 / 10%), 0 10px 10px rgb(0 0 0 / 10%);
 }
 
+input::placeholder {
   opacity: 0.5;
 }
 
