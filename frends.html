@@ -10,7 +10,7 @@
     ></script>
 
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Welcome to Kokoa Talk</title>
+    <title>Friends - Kokoa Clon</title>
   </head>
   <body>
     <div id="status-bar">
@@ -31,24 +31,20 @@
         <!-- Lighning Icon -->
       </div>
     </div>
-
-    <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome To KokoaTalk</h1>
-      <p class="welcome-header__text">
-        if you have a Kakao Account, log in with your email or phone number.
-      </p>
-    </header>
-
-    <form action="frends.html" method="get" id="login-form">
-      <input
-        name="username"
-        type="text"
-        required
-        placeholder="Email or phone number"
-      />
-      <input name="password" type="password" required placeholder="password" />
-      <input type="submit" value="Log in" />
-      <a href="#">Find Kakao Account or password</a>
-    </form>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="frends.html"><i class="fa-solid fa-user fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"><i class="fa-regular fa-comment fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"><i class="fas fa-search fa-2x"></i></i></a>
+        </li>
+        <li class="nav__btn">
+            <a class="nav__link" href="#"><i class="fas fa-ellipsis-h fa-2x"></i></a></li>
+      </ul>
+    </nav>
   </body>
 </html>
