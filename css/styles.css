@@ -8,6 +8,7 @@
 @import "components/user-components.css";
 @import "components/bedge.css";
 @import "components/point.css";
+@import "components/icon-row.css";
 /* screens */
 @import "screens/login.css";
 @import "screens/friends.css";
